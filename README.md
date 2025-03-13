@@ -11,9 +11,9 @@ The project was somewhat challenging since I had never worked directly with Medi
 
 ```
 - Clone this repository; 
-  $ git clone https://github.com/ViniGouveia/git-hub-challenge.git
+  $ git clone https://github.com/ViniGouveia/movies-app.git
   or
-  git@github.com:ViniGouveia/git-hub-challenge.git
+  git@github.com:ViniGouveia/movies-app.git
 
 - Open the project in Android Studio;
 
