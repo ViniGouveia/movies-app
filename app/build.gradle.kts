@@ -52,6 +52,7 @@ dependencies {
 
     implementation(libs.androidx.media3.exoplayer.core)
     implementation(libs.androidx.media3.exoplayer.dash)
+    implementation(libs.androidx.media3.exoplayer.ima)
     implementation(libs.androidx.media3.ui)
 
     testImplementation(libs.junit)
