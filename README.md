@@ -1,33 +1,35 @@
-<h1 align="start">Movies App</h1>
+# Movies App
 
-<h1 align="start">About</h1>
+Native Android video player application built with **Kotlin** and **AndroidX Media3 (ExoPlayer)**, focused on smooth playback, responsive media controls, and support for multiple video formats.
 
-The purpose of the application is to play videos using Media3 ExoPlayer, providing a smooth and reliable playback experience. It includes essential controls for media playback and supports various video formats.
+## Features
 
-The project was somewhat challenging since I had never worked directly with Media3 ExoPlayer and some of the other tools used, but I believe I made the best decisions. I didn't invest a lot in architecture design, since this project's goal was to learn how to use the library and understand how media playback works. I also don't have much expertise in UI/UX, but I aimed to make the interface as intuitive and visually appealing as possible.
+* **Media3 ExoPlayer Integration:** Reliable video playback engine with lifecycle-aware player management.
+* **Playback Controls:** Play/pause, seek scrubbing, buffering state handling, and responsive full-screen controls.
+* **Format Support:** Compatible with standard adaptive streaming and local/remote video formats supported by Media3.
 
-<h1 align="start">How to execute</h1>
-<p align="start">The project's execution is simple:</p>
+## Tech Stack
 
+* **Language:** Kotlin
+* **Media Engine:** AndroidX Media3 (ExoPlayer)
+* **Build System:** Gradle Kotlin DSL
+
+## Getting Started
+
+Clone the repository and open it in **Android Studio**:
+
+```bash
+git clone https://github.com/ViniGouveia/movies-app.git
 ```
-- Clone this repository; 
-  $ git clone https://github.com/ViniGouveia/movies-app.git
-  or
-  git@github.com:ViniGouveia/movies-app.git
 
-- Open the project in Android Studio;
+Wait for Gradle sync to complete and run the app on an emulator or physical device.
 
-- Wait for the project's indexing (this process can take a while, depending on the projects dependencies);
+### Build via Terminal
 
-- Finally, run the project on a physical or virtual device.
-```
+```bash
+# Debug build
+./gradlew clean app:assembleDebug
 
-<p align="start">Executing via terminal:</p>
-
-```
-For debug variant, use this command:  
-./gradlew clean app:assembleDebug  
-
-For release variant, use this command:  
+# Release build
 ./gradlew clean app:assembleRelease
 ```
